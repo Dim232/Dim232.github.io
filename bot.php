@@ -4,7 +4,7 @@ function vk_msg_send($peer_id,$text){
 	$request_params = array(
 		'message' => $text, 
 		'peer_id' => $peer_id, 
-		'access_token' => "TOKEN",
+		'access_token' => "16c07d70f0152547a7d65c00bdc9252b83c4fb5bdc122259fa657d49492a84ad33b494434354a2a31f765",
 		'v' => '5.87' 
 	);
 	$get_params = http_build_query($request_params); 
